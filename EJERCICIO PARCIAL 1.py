@@ -9,11 +9,11 @@ for i in range (n):
     promedio =int( suma/n)
 print("promedio de la suma es : ", promedio)
 
-while promedio != 1:
+while promedio > 1:
     if promedio % 2 == 0:
         promedio= promedio/2
-        print(promedio)
+
     else:
         promedio=promedio*3 +1
-print(promedio)
+    print(promedio)
     
